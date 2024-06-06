@@ -1,14 +1,11 @@
 import javax.swing.JOptionPane;
 
 /**
- * Das Programm soll ausgeben,
+ * Das Programm soll vektorprodukte ausgeben
  * @author Sebastian Weigl
  * @version 06-01-2024
  */
 public class VektorTest {
-    /**
-     * Die Methode uebernummt
-     */
     public static void main(String[] args) {
         int d2Int = VektorMathe.inneres(1, 2, 3, 4);
         int d3Int = VektorMathe.inneres(1, 2, 3, 4, 5, 6);
